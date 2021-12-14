@@ -6,6 +6,7 @@
 Markov Namegen is a Markov chain-based word generator library written in Haxe, made for procedural name generation. Run the demo [here](https://www.samcodes.co.uk/project/markov-namegen/).
 
 ## Features
+* Hundreds of customizable/combinable training data presets.
 * Katz backoff using high order models - look up to "n" characters back.
 * Sort and filter generated strings by length, start, end, content and regex matching.
 * Damerau-Levenshtein distance similarity sorting option.
@@ -57,3 +58,7 @@ Some users have ported and extended the Markov Namegen library to different prog
 * Many of the concepts used for the generator were suggested in [this article](http://www.roguebasin.com/index.php?title=Names_from_a_high_order_Markov_Process_and_a_simplified_Katz_back-off_scheme) by Jeffrey Lund.
 * The haxelib is written in plain Haxe and so supports every Haxe target.
 * If you have any questions or suggestions then [get in touch](https://twitter.com/Sam_Twidale) or open an issue.
+
+## License
+* Most of the training data bundled in the haxelib comes from sites like Wikipedia and census data sources over many years. CC-BY-SA 3.0 as a derivative from Wikipedia content will cover most of the content if you wish to use these for other purposes, but I provide no guarantee.
+* The [haxelib](https://lib.haxe.org/p/markov-namegen/) code is provided under the MIT license.
