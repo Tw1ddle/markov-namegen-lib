@@ -1,4 +1,7 @@
-# Markov Namegen
+[![Markov Namegen logo](https://github.com/Tw1ddle/markov-namegen-lib/blob/master/screenshots/markovnamegen_logo.png?raw=true "Markov Namegen Procedural Random Name Generator Project logo")](https://www.samcodes.co.uk/project/markov-namegen/)
+
+[![Build Status Badge](https://ci.appveyor.com/api/projects/status/github/Tw1ddle/markov-namegen-lib)](https://ci.appveyor.com/project/Tw1ddle/markov-namegen-lib)
+[![License Badge](https://licensebuttons.net/l/by-nc/4.0/80x15.png)](https://github.com/Tw1ddle/markov-namegen-lib/blob/master/LICENSE)
 
 Markov Namegen is a Markov chain-based word generator library written in Haxe, made for procedural name generation. Run the demo [here](https://www.samcodes.co.uk/project/markov-namegen/).
 
