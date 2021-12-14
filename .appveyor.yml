@@ -30,7 +30,7 @@ build_script:
   - cd $APPVEYOR_BUILD_FOLDER
   
   # Build the documentation
-  - pushd lib/dox
+  - pushd dox
   - chmod +x generate_docs.sh
   - ./generate_docs.sh
   - popd
@@ -60,9 +60,9 @@ deploy_script:
   - git reset --hard "$firstCommitHash"
   
   # Move the newly-generated docs to the gh-pages folder
-  - cd $APPVEYOR_BUILD_FOLDER/lib/dox/generated_docs
-  - (shopt -s dotglob && mv * ../../../../gh-pages)
-  - cd ../../../../gh-pages
+  - cd $APPVEYOR_BUILD_FOLDER/dox/generated_docs
+  - (shopt -s dotglob && mv * ../../../gh-pages)
+  - cd ../../../gh-pages
 
   # Note that when there is nothing to commit, git commit exits with 1 (but that should never happen here)
   - git add -A
