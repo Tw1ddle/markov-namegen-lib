@@ -1,0 +1,12 @@
+*.zip
+*.db
+**/.DS_Store
+**/Thumbs.db
+**/ehthumbs.db
+**/*.lnk
+**/.Trash-*
+**/.directory
+*.hash
+*.map
+lib/dox/themes/samcodes/resources/samcodes-nav.min.css
+lib/dox/themes/samcodes/resources/styles.min.css
