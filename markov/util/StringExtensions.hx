@@ -47,7 +47,7 @@ class StringExtensions {
         Sure.sure(substr != null);
 
         #if php
-        return test == "" || str.indexOf(substr) >= 0;
+        return str == "" || str.indexOf(substr) >= 0;
         #else
         return str.indexOf(substr) >= 0;
         #end
