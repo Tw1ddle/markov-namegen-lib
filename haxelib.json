@@ -4,8 +4,8 @@
 	"license": "MIT",
 	"tags": ["cross","haxe","utility","game","tool"],
 	"description": "Procedural word generation tool using a high order Markov process, back-off scheme, filtering and sorting",
-	"version": "1.1.0",
-	"releasenote": "Include word lists (training data) in the haxelib",
+	"version": "1.1.1",
+	"releasenote": "Fix builds for PHP target and other minor cleanup.",
 	"contributors": ["samcodes"],
 	"dependencies": {"sure": ""}
 }

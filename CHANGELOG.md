@@ -30,3 +30,6 @@
 
 ## 1.1.0
 * Included word lists (training data) in the library.
+
+## 1.1.1
+* Fix builds for PHP target and other minor cleanup.

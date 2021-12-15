@@ -12,4 +12,4 @@ rm -f types.xml
 haxe build.hxml
 
 # Generate the documentation.
-haxelib run dox -i types.xml -theme ./themes/samcodes --title "Markov Namegen API" -D version 1.1.0 --include "(markov)" -o generated_docs
+haxelib run dox -i types.xml -theme ./themes/samcodes --title "Markov Namegen API" -D version 1.1.1 --include "(markov)" -o generated_docs
