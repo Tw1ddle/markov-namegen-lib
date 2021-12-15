@@ -1,6 +1,6 @@
 # Markov Namegen Dox
 
-Documentation generation for [Markov Namegen](http://tw1ddle.github.io/MarkovNameGenerator/).
+Documentation generation for [Markov Namegen](https://github.com/Tw1ddle/markov-namegen-lib).
 
 This project generates the Markov Namegen documentation using [dox](https://github.com/HaxeFoundation/dox), the Haxe documentation generator.
 

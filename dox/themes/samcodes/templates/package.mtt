@@ -1,10 +1,11 @@
 ::use 'main.mtt'::
 
 <h1>Markov Namegen API documentation <small ::cond api.isDefined("version")::>version ::api.getValue('version')::</small></h1>
-<p>Markov Namegen is a Markov chain-based procedural name generator written in Haxe.</p> 
+<p>Markov Namegen is a Markov chain-based procedural name generator library written in Haxe.</p> 
 <h3>Getting Started With Markov Namegen</h3>
 <ul>
-	<li>Take a look at the readme in the <a href="https://github.com/Tw1ddle/MarkovNameGenerator">code repository</a></li>
+	<li>Take a look at the readme in the <a href="https://github.com/Tw1ddle/markov-namegen-lib">library repository</a></li>
+	<li>Take a look at the readme in the <a href="https://github.com/Tw1ddle/MarkovNameGenerator">demo repository</a></li>
 	<li>Try out the <a href="http://www.samcodes.co.uk/project/markov-namegen/">online demo</a></li>
 	<li>Search for <a href="https://en.wikipedia.org/wiki/List_of_lists_of_lists">inspiration</a></li>
 </ul>
