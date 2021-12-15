@@ -16,7 +16,7 @@ Markov Namegen is a Markov chain-based word generator library written in Haxe, m
 
 ## Usage
 
-See the [demo code](https://github.com/Tw1ddle/MarkovNameGenerator) for a complete worked example. Also read the [library documentation](https://tw1ddle.github.io/markov-namegen-lib/).
+See the [demo code](https://github.com/Tw1ddle/MarkovNameGenerator) for a complete worked example. Also see the [library documentation](https://tw1ddle.github.io/markov-namegen-lib/).
 
 ## Library Setup
 
@@ -30,6 +30,12 @@ Include it in your ```.hxml```
 Or add it to your ```Project.xml```:
 ```
 <haxelib name="markov-namegen" />
+```
+
+You can also transpile the library for use with different target languages by running the following from the root of the repository, and then checking the generated code in the bin folder:
+
+```
+haxe build.hxml
 ```
 
 ## How It Works

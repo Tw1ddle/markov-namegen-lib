@@ -1,0 +1,21 @@
+# Use this .hxml to transpile the library code to other target languages
+# If this is missing your preferred language, see: https://haxe.org/manual/target-details.html
+
+-lib sure
+-cp dox
+Main
+--js bin/markov.js
+
+--next
+
+-lib sure
+-cp dox
+--php bin/php
+--main Main
+
+--next
+
+-lib sure
+-cp dox
+--python bin/markov.py
+--main Main
