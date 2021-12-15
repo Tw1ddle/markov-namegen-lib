@@ -27,3 +27,6 @@
 
 ## 1.0.9
 * Bug fix to avoid endless loop when prior is greater than 0, code cleanup.
+
+## 1.1.0
+* Included word lists (training data) in the library.

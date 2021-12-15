@@ -1,11 +1,11 @@
 {
 	"name": "markov-namegen",
-	"url": "http://samcodes.co.uk/code/",
+	"url": "https://samcodes.co.uk/code/",
 	"license": "MIT",
 	"tags": ["cross","haxe","utility","game","tool"],
 	"description": "Procedural word generation tool using a high order Markov process, back-off scheme, filtering and sorting",
-	"version": "1.0.9",
-	"releasenote": "Added additional utility functions, code cleanup",
+	"version": "1.1.0",
+	"releasenote": "Include word lists (training data) in the haxelib",
 	"contributors": ["samcodes"],
 	"dependencies": {"sure": ""}
 }
