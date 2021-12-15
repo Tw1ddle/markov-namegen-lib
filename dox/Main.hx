@@ -11,4 +11,7 @@ import markov.util.PrefixTrie;
 import markov.util.StringExtensions;
 import markov.util.TrainingDataBuilder;
 
-class Main {}
+class Main {
+    static public function main():Void {
+    }
+}
